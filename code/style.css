@@ -1,0 +1,175 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End Reset */
+
+/* General Styles */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1f0f2;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Alata', sans-serif;
+}
+
+h1 {
+	background-color: #b5aebb;
+	font-size: 2rem;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	border: 5px solid #A29AAA;
+}
+
+a, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #39363b;
+}
+
+/* Header */
+header {
+	width: 100%;
+}
+
+.title {
+	font-size: 1.5rem;
+	padding: 10px;
+}
+
+.top-header {
+	background-color: #A29AAA;
+	height: 100px;
+	padding: 2%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav a, header nav a:visited {
+	background-color: #9a92a2;
+	color: black;
+	text-decoration: none;
+	padding: 20px;
+}
+
+header nav a:hover {
+	background-color: #928b99;
+}
+
+.header-image {
+	background: url('../image/header.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+
+.wrapper {
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+}
+
+/* Content */
+.content {
+	min-height: 500px;
+	height: inherit;
+}
+
+/* Footer */
+footer {
+	background-color: #7a7480;
+	height: 150px;
+	width: 100%;
+	margin-top: 10%;
+	padding: 2%;
+	font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+footer h3 {
+	font-size: 1.5rem;
+}
+
+.info {
+	text-align: center;
+}
+
+footer nav {
+	display: flex;
+	flex-direction: column;
+}
+
+footer a, footer a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #39363b;
+}
+
+.social {
+	font-size: 2rem;
+}
+
+/* Team Page */
+.team1 {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.team2 {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.team-member {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
