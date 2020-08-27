@@ -173,3 +173,56 @@ footer a:hover {
 	align-items: center;
 	text-align: center;
 }
+
+/* Media 800px */
+@media (max-width: 800px) {
+	/* Header */
+	.header-image {
+		height: 500px;
+	}
+
+	/* Team Page */
+	.team-member {
+		width: 150px;
+	}
+
+	.team-image {
+		width: 100px;
+	}
+}
+
+/* Media 500px */
+@media (max-width: 500px) {
+	/* Header */
+	.header-image {
+		height: 400px;
+	}
+
+	.top-header {
+		height: 250px;
+		padding: 0;
+		justify-content: space-around;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* Footer */
+	footer {
+		margin-top: 240%;
+		padding: 1%;
+		font-size: 0.8rem;
+		justify-content: space-between;
+	}
+
+	/* Team Page */
+	.team-member {
+		width: 200px;
+	}
+
+	.team-image {
+		width: 200px;
+	}
+}
